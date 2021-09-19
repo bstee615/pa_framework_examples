@@ -1,0 +1,318 @@
+LLVM
+execution 1
+0.000008 int main()
+0.000068 {
+0.000079     int x = 0;
+0.000086     int i = 0;
+0.000093     while (i < 10) {
+0.000100       x += 1;
+0.000106       i++;
+0.000112     }
+0.000119     return x;
+0.000126 }
+
+real	0m0.020s
+user	0m0.028s
+sys	0m0.000s
+
+execution 2
+0.000012 int main()
+0.000111 {
+0.000126     int x = 0;
+0.000138     int i = 0;
+0.000148     while (i < 10) {
+0.000158       x += 1;
+0.000182       i++;
+0.000189     }
+0.000196     return x;
+0.000203 }
+
+real	0m0.019s
+user	0m0.028s
+sys	0m0.000s
+
+execution 3
+0.000013 int main()
+0.000119 {
+0.000133     int x = 0;
+0.000143     int i = 0;
+0.000173     while (i < 10) {
+0.000180       x += 1;
+0.000187       i++;
+0.000194     }
+0.000229     return x;
+0.000259 }
+
+real	0m0.027s
+user	0m0.027s
+sys	0m0.010s
+
+execution 4
+0.000011 int main()
+0.000091 {
+0.000106     int x = 0;
+0.000115     int i = 0;
+0.000124     while (i < 10) {
+0.000133       x += 1;
+0.000141       i++;
+0.000149     }
+0.000177     return x;
+0.000370 }
+
+real	0m0.025s
+user	0m0.025s
+sys	0m0.011s
+
+execution 5
+0.000009 int main()
+0.000071 {
+0.000084     int x = 0;
+0.000092     int i = 0;
+0.000100     while (i < 10) {
+0.000107       x += 1;
+0.000114       i++;
+0.000122     }
+0.000129     return x;
+0.000136 }
+
+real	0m0.024s
+user	0m0.024s
+sys	0m0.009s
+
+Joern
+execution 1
+0.564209 executing /root/tools/joern_example.sc with params=Map(inDirectory -> data, inFile -> data/loop_exchange.c)
+3.429778 Using generator for language: C
+3.441463 Creating project `project` for code at `data`
+3.443358 Project with name project already exists - overwriting
+5.026527 moving cpg.bin.zip to cpg.bin because it is already a database file
+5.031587 Creating working copy of CPG to be safe
+5.032401 Loading base CPG from: /root/workspace/project/cpg.bin.tmp
+5.220765 Adding default overlays to base CPG
+5.508398 The graph has been modified. You may want to use the `save` command to persist changes to disk.  All changes will also be saved collectively on exit
+5.508457 Code successfully imported. You can now query it using `cpg`.
+5.508472 For an overview of all imported code, type `workspace`.
+5.551941 int main()
+5.552011 {
+5.552025     int x = 0;
+5.552036     int i = 0;
+5.552048     while (i < 10)
+5.552059     {
+5.552069         x += 1;
+5.552079         i ++;
+5.552090     }
+5.552101     return x;
+5.552111 }
+5.552394 script finished successfully
+5.552440 ()
+
+real	0m5.607s
+user	0m13.357s
+sys	0m0.907s
+
+execution 2
+0.763351 executing /root/tools/joern_example.sc with params=Map(inDirectory -> data, inFile -> data/loop_exchange.c)
+4.278253 Using generator for language: C
+4.291413 Creating project `project` for code at `data`
+4.292987 Project with name project already exists - overwriting
+5.892057 moving cpg.bin.zip to cpg.bin because it is already a database file
+5.896276 Creating working copy of CPG to be safe
+5.897009 Loading base CPG from: /root/workspace/project/cpg.bin.tmp
+6.092227 Adding default overlays to base CPG
+6.373564 The graph has been modified. You may want to use the `save` command to persist changes to disk.  All changes will also be saved collectively on exit
+6.373613 Code successfully imported. You can now query it using `cpg`.
+6.373624 For an overview of all imported code, type `workspace`.
+6.414675 int main()
+6.414751 {
+6.414781     int x = 0;
+6.414790     int i = 0;
+6.414797     while (i < 10)
+6.414804     {
+6.414812         x += 1;
+6.414820         i ++;
+6.414828     }
+6.414835     return x;
+6.414842 }
+6.415107 script finished successfully
+6.415135 ()
+
+real	0m6.490s
+user	0m15.883s
+sys	0m1.035s
+
+execution 3
+0.628214 executing /root/tools/joern_example.sc with params=Map(inDirectory -> data, inFile -> data/loop_exchange.c)
+3.734224 Using generator for language: C
+3.749427 Creating project `project` for code at `data`
+3.751681 Project with name project already exists - overwriting
+5.486720 moving cpg.bin.zip to cpg.bin because it is already a database file
+5.490791 Creating working copy of CPG to be safe
+5.491959 Loading base CPG from: /root/workspace/project/cpg.bin.tmp
+5.753009 Adding default overlays to base CPG
+6.023626 The graph has been modified. You may want to use the `save` command to persist changes to disk.  All changes will also be saved collectively on exit
+6.023695 Code successfully imported. You can now query it using `cpg`.
+6.023709 For an overview of all imported code, type `workspace`.
+6.063141 int main()
+6.063206 {
+6.063219     int x = 0;
+6.063228     int i = 0;
+6.063237     while (i < 10)
+6.063245     {
+6.063254         x += 1;
+6.063264         i ++;
+6.063273     }
+6.063281     return x;
+6.063290 }
+6.063584 script finished successfully
+6.063634 ()
+
+real	0m6.127s
+user	0m14.612s
+sys	0m1.001s
+
+execution 4
+0.633046 executing /root/tools/joern_example.sc with params=Map(inDirectory -> data, inFile -> data/loop_exchange.c)
+4.467211 Using generator for language: C
+4.480157 Creating project `project` for code at `data`
+4.481993 Project with name project already exists - overwriting
+6.401920 moving cpg.bin.zip to cpg.bin because it is already a database file
+6.405244 Creating working copy of CPG to be safe
+6.406316 Loading base CPG from: /root/workspace/project/cpg.bin.tmp
+6.683568 Adding default overlays to base CPG
+6.961824 The graph has been modified. You may want to use the `save` command to persist changes to disk.  All changes will also be saved collectively on exit
+6.961885 Code successfully imported. You can now query it using `cpg`.
+6.961899 For an overview of all imported code, type `workspace`.
+7.000304 int main()
+7.000376 {
+7.000388     int x = 0;
+7.000398     int i = 0;
+7.000408     while (i < 10)
+7.000418     {
+7.000427         x += 1;
+7.000435         i ++;
+7.000445     }
+7.000455     return x;
+7.000464 }
+7.000720 script finished successfully
+7.000755 ()
+
+real	0m7.043s
+user	0m16.993s
+sys	0m1.140s
+
+execution 5
+0.578336 executing /root/tools/joern_example.sc with params=Map(inDirectory -> data, inFile -> data/loop_exchange.c)
+3.983688 Using generator for language: C
+3.996156 Creating project `project` for code at `data`
+3.997809 Project with name project already exists - overwriting
+5.640536 moving cpg.bin.zip to cpg.bin because it is already a database file
+5.644234 Creating working copy of CPG to be safe
+5.645132 Loading base CPG from: /root/workspace/project/cpg.bin.tmp
+5.858958 Adding default overlays to base CPG
+6.109839 The graph has been modified. You may want to use the `save` command to persist changes to disk.  All changes will also be saved collectively on exit
+6.109893 Code successfully imported. You can now query it using `cpg`.
+6.109906 For an overview of all imported code, type `workspace`.
+6.145907 int main()
+6.145967 {
+6.145979     int x = 0;
+6.145988     int i = 0;
+6.145997     while (i < 10)
+6.146006     {
+6.146033         x += 1;
+6.146051         i ++;
+6.146062     }
+6.146072     return x;
+6.146081 }
+6.146306 script finished successfully
+6.146330 ()
+
+real	0m6.186s
+user	0m15.082s
+sys	0m0.789s
+
+srcML
+execution 1
+0.036594 int main()
+0.036690 {
+0.036705     int x = 0;
+0.036715     int i = 0;
+0.036725     while(i < 10)
+0.036734     {
+0.036743         x += 1;
+0.036751         i ++;
+0.036760     }
+0.036769     return x;
+0.036778 }
+
+real	0m0.066s
+user	0m0.080s
+sys	0m0.013s
+
+execution 2
+0.055558 int main()
+0.055652 {
+0.055666     int x = 0;
+0.055676     int i = 0;
+0.055686     while(i < 10)
+0.055694     {
+0.055703         x += 1;
+0.055711         i ++;
+0.055721     }
+0.055730     return x;
+0.055738 }
+
+real	0m0.086s
+user	0m0.090s
+sys	0m0.018s
+
+execution 3
+0.036592 int main()
+0.036691 {
+0.036705     int x = 0;
+0.036714     int i = 0;
+0.036723     while(i < 10)
+0.036732     {
+0.036741         x += 1;
+0.036748         i ++;
+0.036757     }
+0.036766     return x;
+0.036774 }
+
+real	0m0.066s
+user	0m0.061s
+sys	0m0.031s
+
+execution 4
+0.036562 int main()
+0.036666 {
+0.036681     int x = 0;
+0.036691     int i = 0;
+0.036700     while(i < 10)
+0.036708     {
+0.036715         x += 1;
+0.036724         i ++;
+0.036733     }
+0.036741     return x;
+0.036748 }
+
+real	0m0.066s
+user	0m0.080s
+sys	0m0.012s
+
+execution 5
+0.036881 int main()
+0.037006 {
+0.037024     int x = 0;
+0.037035     int i = 0;
+0.037045     while(i < 10)
+0.037054     {
+0.037072         x += 1;
+0.037082         i ++;
+0.037092     }
+0.037101     return x;
+0.037110 }
+
+real	0m0.067s
+user	0m0.092s
+sys	0m0.000s
+
