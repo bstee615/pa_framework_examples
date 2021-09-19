@@ -1,4 +1,5 @@
 import subprocess
+import sys
 from lxml import etree
 from lxml.builder import ElementMaker
 
@@ -29,7 +30,7 @@ def get_tag(node):
 def join_str(*args):
     return ''.join(str(s) if s is not None else '' for s in args)
 
-with open('loop_exchange.c') as f:
+with open(sys.argv[1]) as f:
     c_code = f.read()
 
 xml = to_xml(c_code)
