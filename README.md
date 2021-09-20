@@ -7,11 +7,43 @@ Try it out! Leave a PR if you have any questions/suggestions!
 Each tool has a unique set of benefits and drawbacks.
 I chose these 3 tools because I think they are all well-designed, and want to help the community discover/use these wonderful authors' work.
 
-Here are the 3 tools:
 
-* [srcML: an infrastructure for the exploration, analysis, and manipulation of source code](https://www.srcml.org/)
-* [Joern: The Bug Hunter's Workbench](https://joern.io/)
-* [LLVM: a collection of modular and reusable compiler and toolchain technologies](https://llvm.org/)
+<table>
+<tr>
+<td style="width: 15%; height: 15%">
+
+![srcml](images/srcml.png)
+
+</td>
+<td style="width: 15%; height: 15%">
+
+![joern](images/joern.png)
+
+</td>
+<td style="width: 15%; height: 15%">
+
+![llvm](images/llvm.png)
+
+</td>
+</tr>
+<tr>
+<td style="width: 15%; height: 15%">
+
+[srcML: an infrastructure for the exploration, analysis, and manipulation of source code](https://www.srcml.org/)
+
+</td>
+<td style="width: 15%; height: 15%">
+
+[Joern: The Bug Hunter's Workbench](https://joern.io/)
+
+</td>
+<td style="width: 15%; height: 15%">
+
+[LLVM: a collection of modular and reusable compiler and toolchain technologies](https://llvm.org/)
+
+</td>
+</tr>
+</table>
 
 ## Task
 
