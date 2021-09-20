@@ -1,6 +1,9 @@
-# https://stackoverflow.com/a/5534865
-!/llvm/llvm-project/loop-convert
-/llvm/llvm-project
+# https://intellipaat.com/community/10422/gitignore-exclude-folder-but-include-specific-subfolder
+!/llvm/llvm-project/
+/llvm/llvm-project/*
+!/llvm/llvm-project/clang-tools-extra
+/llvm/llvm-project/clang-tools-extra/*
+!/llvm/llvm-project/clang-tools-extra/loop-convert/
 
 *.xz
 .idea
