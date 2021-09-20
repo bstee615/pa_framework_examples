@@ -69,12 +69,14 @@ int main()
 
 ## Organization
 
-Tool source codes are in folders named `srcml`, `joern`, and `llvm`. One sample input program is in `data`. Expected output is as depicted above.
+Tool source codes are in folders named `srcml`, `joern`, and `llvm`.
+One sample input program is in `data`. Expected output is as depicted above.
+`timing.sh` runs all tools and collects timing.
+The output from my run is collected in `timing-report.txt`.
 
 ## Running the examples
 
 Here are rough instructions for running the examples.
-`timing.sh` runs all tools and collects timing.
 Expected output is in the table above (on the right).
 
 * `srcml_example.py` requires srcML, Python 3, and `lxml`.
