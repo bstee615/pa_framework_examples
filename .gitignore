@@ -1,4 +1,7 @@
-llvm-project-12.0.1.src
+# https://stackoverflow.com/a/5534865
+!/llvm/llvm-project/loop-convert
+/llvm/llvm-project
+
 *.xz
 .idea
 .vscode
