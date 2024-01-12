@@ -1,6 +1,7 @@
 # Examples of 3 program analysis tools for C
 
 Example of using 3 program analysis tools for refactoring C code.
+Read more about it in my blog post: https://benjijang.com/posts/2022/03/no-pain-no-gain/.
 These are the tools that have some features that are necessary for refactoring and are well-supported (active authors and development).
 Try it out! Leave a PR if you have any questions/suggestions!
 
